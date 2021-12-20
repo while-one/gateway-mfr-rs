@@ -18,5 +18,5 @@ serde = "1"
 rand = "0.8"
 serde_json = "1"
 angry-purple-tiger = "0"
-helium-crypto = { git="https://github.com/while-one/helium-crypto-rs.git", rev="d38f3249d14b0ef1afddaf1f31e8d13bbf9931c8", features = ["ecc608"]}
+helium-crypto = { git="https://github.com/while-one/helium-crypto-rs.git", rev="9caeefccd4d525244f9504c3f1026449a7207746", features = ["ecc608"]}
 
