@@ -122,17 +122,17 @@ impl Test {
 
     pub fn run(&self) -> Result {
         match self {
-            Self::Serial => check_serial(),
-            Self::ZoneLocked(zone) => check_zone_locked(zone),
-            Self::SlotConfig {
-                start, end, config, ..
-            } => check_slot_configs(*start, *end, config),
-            Self::KeyConfig {
-                start, end, config, ..
-            } => check_key_configs(*start, *end, config),
-            Self::MinerKey(slot) => check_miner_key(*slot),
+//             Self::Serial => check_serial(),
+//             Self::ZoneLocked(zone) => check_zone_locked(zone),
+//             Self::SlotConfig {
+//                 start, end, config, ..
+//             } => check_slot_configs(*start, *end, config),
+//             Self::KeyConfig {
+//                 start, end, config, ..
+//             } => check_key_configs(*start, *end, config),
+//             Self::MinerKey(slot) => check_miner_key(*slot),
             Self::Sign(slot) => check_sign(*slot),
-            Self::Ecdh(slot) => check_ecdh(*slot),
+//             Self::Ecdh(slot) => check_ecdh(*slot),
         }
     }
 }
